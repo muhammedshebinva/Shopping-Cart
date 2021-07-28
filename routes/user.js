@@ -30,7 +30,7 @@ router.get('/', function(req, res, next) {
       image:"https://www.gizmochina.com/wp-content/uploads/2020/11/Samsung-Galaxy-S21-Ultra-5G-500x500.jpg"
     }
   ]
-  res.render('index', {products,admin:true });
+  res.render('index', {products,admin:false });
   
 });
 
